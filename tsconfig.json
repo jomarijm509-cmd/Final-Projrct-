@@ -20,7 +20,8 @@
       "ES2022",
       "dom"
     ],
-    "useDefineForClassFields": false,
+   "useDefineForClassFields": false,
+    "baseUrl": "./",
     "paths": {
       "@app/*": [
         "src/app/*"
@@ -28,8 +29,7 @@
       "@environments/*": [
         "src/environments/*"
       ]
-    },
-    "baseUrl": "./"
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
